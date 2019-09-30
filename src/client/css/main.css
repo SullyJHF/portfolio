@@ -1,4 +1,51 @@
-.blue {
-  background: #6363e4;
+.dark {
+  color: #fffff0;
+  background: #212121;
   height: 100%;
 }
+
+.terminal p {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.terminal.highlight {
+  background: #2f2e2e;
+  border: 0 solid #3c3c3c;
+  border-width: 3px 0;
+}
+
+.larger {
+  font-size: 4em;
+}
+
+.hide {
+  margin-top: -100%;
+  transition: margin 1s ease;
+}
+
+/***** ATOMIC *****/
+.d-flex {
+  display: flex;
+}
+.col {
+  flex-direction: column;
+}
+.just-start {
+  justify-content: flex-start;
+}
+.just-center {
+  justify-content: center;
+}
+.middle {
+  margin: auto 0;
+}
+.full-width {
+  width: 100%;
+}
+
+
+.yellow {color: #f7ff5b;}
+.green {color: #0da700;}
+.red {color: #ac1c1c;}
+.white {color: #fefff1;}
