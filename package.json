@@ -33,7 +33,7 @@
     "@babel/runtime": "^7.5.5",
     "body-parser": "^1.19.0",
     "ejs": "^2.6.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   }
